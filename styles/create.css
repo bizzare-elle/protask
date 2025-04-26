@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+form {
+  width: 100%;
+  row-gap: 15px;
+}
