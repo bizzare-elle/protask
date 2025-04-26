@@ -15,7 +15,16 @@
   <h1>Pro<span class="tag">Task</span></h1>
   <span>Welcome to <span class="tag">ProTask!</span> The best task manager.</span>
 
-  <a href="createTask.php"><button class="btn btn-primary">Get Started</button></a>
+  <a href="createTask.php" method="GET"><button class="btn btn-primary">Get Started</button></a>
+  </div>
+
+  <div class="container">
+    <form class="search-form" action="search.php" method="POST">
+      <label class="form-label" for="taskSearch">Search for a task:</label>
+      <input type="text" name="taskSearch" class="form-control" placeholder="Search..." >
+      <button class="btn btn-primary">Seach</button>
+    </form>
+
   </div>
 </body>
 </html>

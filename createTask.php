@@ -15,9 +15,9 @@
   <div class="container">
    <h1>Create <span class="tag">Task</span></h1>
    <span>Fill-out each field to add new task to your protask!</span>
-   
+
    <div class="container">
-      <form action="">
+      <form action="includes/createTask.inc.php" method="POST">
           <label class="form-label" for="title">Title</label>
           <input type="text" name="title" class="form-control" placeholder="Enter task title" >
           <label class="form-label" for="subject">Subject</label>

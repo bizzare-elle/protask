@@ -10,5 +10,3 @@ try {
 } catch (PDOException $error) {
   echo 'Connection failed: ' . $error->getMessage();
 };
-
-?>
